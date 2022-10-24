@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+#intro {
+    background: url(/images/01.jpg) 50% 0 fixed;
+    /*imagen, posición en x, posición en Y, posición fija*/
+    background-size: cover;
+    /*redirecciona la imagen, trata de mostrar lo más que puede dentro de su tamaño de imagen*/
+    min-height: 900px;
+    margin: 0;
+    width: 100%;
+}
+
+#bloque-img2 {
+    background: url(/images/02.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 600px;
+
+}
+
+#bloque-igm3 {
+    background: url(/images/03.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.bloque {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.texto {
+    color: #ddd;
+    padding: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+}

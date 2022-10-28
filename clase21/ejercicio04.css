@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+#cuadrado1 {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#cuadrado2 {
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+#cuadrado3 {
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+}
